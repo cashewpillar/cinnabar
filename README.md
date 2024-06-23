@@ -1,14 +1,12 @@
-# README
+# CINNABAR
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
+* Ruby v3.3.3
+* Rails v7.1.3.4
 * System dependencies
-
+  - created using [WSL Ubuntu 22.04 Jammy Jellyfish](https://gorails.com/setup/ubuntu/22.04)
 * Configuration
 
 * Database creation
@@ -20,5 +18,9 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+
+* Play with the app
+  - Run the server `bin/rails server`
+  - Display the routes `bin/rails routes`
 
 * ...
