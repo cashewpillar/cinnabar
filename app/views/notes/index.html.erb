@@ -4,7 +4,7 @@
 <ul>
   <% @notes.each do |note| %>
     <li>
-      <%= note.title %>
+      <%= link_to note.title, note %>
     </li>
   <% end %>
 </ul>
